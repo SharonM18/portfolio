@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
-
+  menulist = [
+    'home','about','contact', 'Sharon','cv',
+  ] 
 }
